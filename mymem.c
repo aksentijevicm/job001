@@ -12,6 +12,7 @@ int main( int argc, char **argv )
         printf( "Nepravilan unos\n" );
         exit( EXIT_FAILURE );
     };
+
     
     p = ( int * ) malloc( sizeof( int ) );
     if( p == NULL ) exit( EXIT_FAILURE );
